@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="TAW, Módulo 2, Exercício 3">
+    <meta name="keywords" content="HTML, TAW">
+    <meta name="author" content="Vitor Hugo Oliveira">
+    <title>TAW-MOD2-EX3</title>
+</head>
+
+<body>
+    <form action="http://www.webucator.com/course-demos/htm101/process-form.cfm" method="POST">
+        Username:<br><input type="text" name="username">
+        <br>
+        <br>
+        Password:<br><input type="password" id="username" name="pw">
+        <br>
+        <input type="hidden" id="emailMe" name="emailMe" value="9180593@esmad.ipp.pt">
+        <br> <input type="radio" name="gender" id="genderm" value="m">Male
+        <input type="radio" name="gender" id="genderf" value="f">Female <br>
+        <br> <select name="referral" id="referral">
+            <option value="0">--Please choose--</option>
+            <option value="wom">Word of Mouth</option>
+            <option value="other">Other</option>
+            <optgroup label="Search Engine">
+                <option value="Google">Google</option>
+                <option value="Yahoo">Yahoo</option>
+                <option value="MSN">MSN</option>
+            </optgroup>                    
+        </select><br>
+        <br> Comments: <br> <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br> <br> <input type="checkbox" name="terms" id="terms">
+        <br> <br> <input type="submit" value="Submit">
+        <button type="reset" value="Reset">Reset</button>
+    </form>
+</body>
+
+</html>
